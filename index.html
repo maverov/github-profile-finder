@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
     <title>GitHub Profile Finder</title>
 </head>
 <body>
     
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">GitHub Finder</a>
+            
+            <nav class="navbar navbar-light">
+                <form class="form-inline">
+                  <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+                </form>
+              </nav>
+        </div>
+    </nav>
+
+    <div class="container searchContainer">
+        <div class="search card card-body">
+            <h1>Search GitHub Users/Profiles</h1>
+            <p class="lead">Enter a username to fetch a user profile and repos</p>
+            <input type="text" name="" id="searchUser" class="form-control" placeholder="GitHub Username...">
+            <br>
+            <div id="profile"></div>
+        </div>
+    </div>
+
+    <div class="footer mt-5 p-3 text-center bg-white">
+        GitHub Finder 2019 &copy; Developed by <a href="https://www.linkedin.com/in/maverov/" target="_blank" alt="LinkedIn Profile">Hristiyan Maverov</a>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="maverov"><a class="LI-simple-link" href='https://bg.linkedin.com/in/maverov?trk=profile-badge'>Hristiyan Maverov</a></div>
+    </div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="github.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 </html>
